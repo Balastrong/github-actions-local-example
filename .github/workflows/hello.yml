@@ -1,0 +1,13 @@
+name: Hello World!
+
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-style:
+    runs-on: ubuntu-latest
