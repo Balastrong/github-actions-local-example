@@ -1,0 +1,21 @@
+{
+  "name": "github-actions-local-example",
+  "version": "1.0.0",
+  "description": "Testing out how to run locally a GitHub Action - Demo for the video on act",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balastrong/github-actions-local-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Balastrong/github-actions-local-example/issues"
+  },
+  "homepage": "https://github.com/Balastrong/github-actions-local-example#readme",
+  "devDependencies": {
+    "ava": "^5.1.0"
+  }
+}
