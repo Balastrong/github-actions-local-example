@@ -2,12 +2,18 @@ name: Hello World!
 
 on:
   workflow_dispatch
-  
 
 jobs:
   say-hello:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Hello World!
+      - name: Say Hello World!
         run: echo "Hello World, I'm running!"
+
+  say-hi:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Hi!
+        run: echo "Hi World, I'm running!"
