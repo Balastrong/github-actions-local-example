@@ -11,10 +11,10 @@ on:
         description: "Adds premium features to the build"
         type: boolean
         required: false
-        default: false
       theme:
         description: "Frontend theme"
         type: choice
+        default: "light"
         options:
           - "dark"
           - "light"
